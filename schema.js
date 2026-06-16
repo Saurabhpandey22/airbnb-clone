@@ -1,4 +1,4 @@
-const Joi = require("Joi");
+const Joi = require("joi");
 const { comments } = require("moongose/models");
 const review = require("./models/review");
 
