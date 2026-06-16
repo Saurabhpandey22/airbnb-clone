@@ -1,5 +1,5 @@
 const Joi = require("joi");
-const { comments } = require("moongose/models");
+const { comments } = require("mongoose/models");
 const review = require("./models/review");
 module.exports.reviewSchema = Joi.object({
     review:Joi.object({
